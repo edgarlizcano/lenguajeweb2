@@ -1,9 +1,25 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title>Página de Servicios WEB - Entrar</title>
     </head>
     <body>
-        
+        <ul>
+            <li><a href="salida.html">Salir</a></li>
+        </ul>
+        <form method ="POST" action = "login.php">
+            <label>Introduzca su nombre de Usuario</label>
+            <br>
+            <input type="text" name="usuario"/>
+            <br>
+            
+            <label>Introduzca su contraseña</label>
+            <br>
+            <input type="password" name="clave"/>
+            <br>
+            
+            <input type="submit" value="Entrar"/>
+        </form>
     </body>
 </html>
